@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/angular.min.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app>
+    <div>{{"Hello Sec C"}}</div>
+    <p>{{100+50}}</p>  
+    <p>{{"Hello sec c".toUpperCase()}}</p>
+    <p>{{"ABC".toLowerCase()}}</p>
+    <p>{{"ABC".indexOf('C')}}</p>
+    <p>{{1==1?"True":"False"}}</p>
+    <p ng-show="true">Para1</p> 
+    <p ng-show="false">Para2</p>
+    <p ng-show="true">Para3</p>
+    <p ng-show="8==8">Para4</p>
+    <button ng-click="c=c+100" ng-init="c=10">click</button>
+    <label for="">Enter Data: </label><input type="text" ng-model="mod">
+    <h1>{{c}}</h1>
+    <h1>Data Entered By User: {{mod}}</h1>
+</body>
+</html>
