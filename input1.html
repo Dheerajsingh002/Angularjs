@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/angular.min.js"></script>
+    <title>Angular</title>
+    <style>
+        body{
+            background-color: {{color1}};
+        } 
+        h1{
+            font-size:{{color2}}px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" ng-model="color1">
+        <input type="text" ng-model="color2">
+        <h1>{{color1}}</h1>
+    </div>
+</body>
+</html>
