@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/angular.min.js"></script>
+    <script src="modules.js"></script>
+    <title>Document</title>
+</head>
+<body ng-controller="myCtrl">
+    <div>
+        <input type="button" value="click" ng-click="myfun()">
+        <input type="button" value="Mouse Down" ng-mousedown="myfun()">
+        <input type="button" value="mouse up" ng-mouseup="myfun()"> 
+         <input type="button" value="dbclick" ng-dblclick="myfun()">
+        <input type="button" value="Mouse over" ng-mouseover="myfun()">
+        <input type="button" value="Mouse Enter" ng-mouseenter="myfun()">
+        <input type="button" value="Mouse Move" ng-mousemove="myfun()">
+        <input type="button" value="Mouse Leave" ng-mouseleave="myfun()">
+        <input type="text" name="" id=""  ng-keydown="myfun()">
+        <input type="text" name="" id=""  ng-keypress="myfun()">
+        <input type="text" name="" id=""  ng-keyup="myfun()">
+        <input type="text" name="" id=""  ng-copy="myfun()">
+        <input type="text" name="" id=""  ng-cut="myfun()">
+        <input type="text" name="" id=""  ng-paste="myfun()">
+        
+        <h1>{{ num }}</h1>
+    </div>
+   
+    
+</body>
+</html>
